@@ -10,10 +10,22 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+
+            {% if link.children %}
+              <li class="masthead__menu-item dropdown">
+                <a href="{{ domain }}{{ link.url }}" class="dropdown-toggle">{{ link.title }}</a>
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    <li><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
