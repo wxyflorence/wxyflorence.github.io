@@ -12,7 +12,11 @@ main:
  
   - title: "Data & Code"
     url: /datacode/
-
+    children:
+      - title: "Dataset_Mars-Seg"
+        url: /datacode/datasets/
+      - title: "Source Code"
+        url: /datacode/code/
   
   # - title: "Education Experience"
   #   url: /teaching/
