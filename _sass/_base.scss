@@ -314,6 +314,10 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   transition: $global-transition;
 }
 
+
+
+
+
 /* 下拉菜单基础样式 */
 .dropdown {
   position: relative;
@@ -329,6 +333,15 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   padding: 0;
   margin: 0;
   list-style: none;
+
+  // ✅ 让下拉菜单垂直排列
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content li {
+  // ✅ 确保每项独占一行
+  width: 100%;
 }
 
 .dropdown-content li a {
@@ -336,6 +349,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   padding: 10px 15px;
   text-decoration: none;
   color: #333;
+  white-space: nowrap; // 防止文字换行
 }
 
 .dropdown-content li a:hover {
@@ -344,5 +358,6 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 
 /* 悬停显示下拉菜单 */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex; // ✅ 保持和上面一致，避免 display: block 冲突
+  flex-direction: column;
 }

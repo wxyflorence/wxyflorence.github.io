@@ -9,6 +9,14 @@ main:
 
   - title: "Publications"
     url: /publist/
+  
+  - title: "Data & Code"
+    url: "#"
+    children:
+      - title: "Dataset_Mars-Seg"
+        url: /datacode/Dataset_Mars-Seg/
+      - title: "Source Code"
+        url: /datacode/Source-Code/
  
   # - title: "Data & Code"
   #   url: /datacode/
@@ -25,13 +33,7 @@ main:
   #     - title: "Source Code"
   #       url: /datacode/code/
 
-  - title: "Data & Code"
-    url: "#"
-    children:
-      - title: "Dataset_Mars-Seg"
-        url: /datacode/Dataset_Mars-Seg/
-      - title: "Source Code"
-        url: /datacode/Source-Code/
+  
 
   # - title: "Education Experience"
   #   url: /teaching/
