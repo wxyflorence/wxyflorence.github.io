@@ -40,81 +40,25 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* ==== Custom Dropdown Menu Style Start ==== */
 
+/* Dropdown Navigation Styles */
 .masthead__menu-item.dropdown {
   position: relative;
-}
-
-.masthead__menu-item .dropdown-toggle::after {
-  content: " ▼";
-  font-size: 0.7em;
-  padding-left: 4px;
 }
 
 .masthead__menu-item .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
-  left: 0;
   background-color: #fff;
-  min-width: 180px;
-  z-index: 999;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
   padding: 0;
   margin: 0;
   list-style: none;
-  border-radius: 0 0 6px 6px;
-  overflow: hidden;
 }
 
-/* Show dropdown on hover */
-.masthead__menu-item.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-/* Dropdown menu links */
-.dropdown-menu li a {
-  display: block;
-  padding: 10px 16px;
-  color: #333;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: white;
-}
-
-/* Hover effect */
-.dropdown-menu li a:hover {
-  background-color: #f7f7f7;
-}
-
-/* Optional: keep menu on top of other content */
-.greedy-nav {
-  position: relative;
-  z-index: 1000;
-}
-
-/* ==== Custom Dropdown Menu Style End ==== */
-/* === Custom Dropdown CSS === */
-.masthead__menu-item.dropdown {
-  position: relative;
-}
-
-.masthead__menu-item.dropdown .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 1000;
-  min-width: 180px;
-  padding: 0;
-  margin: 0;
-  border-radius: 0 0 6px 6px;
-}
-
-.masthead__menu-item.dropdown:hover .dropdown-menu {
+.masthead__menu-item:hover .dropdown-menu {
   display: block;
 }
 
@@ -123,7 +67,6 @@
   padding: 10px 16px;
   color: #333;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 .dropdown-menu li a:hover {
