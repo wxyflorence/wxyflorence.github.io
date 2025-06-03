@@ -337,6 +337,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   // ✅ 让下拉菜单垂直排列
   display: flex;
   flex-direction: column;
+  align-items: stretch; // 每项撑满容器宽度
 }
 
 .dropdown-content li {
