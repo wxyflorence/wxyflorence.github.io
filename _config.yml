@@ -309,3 +309,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# 确保禁用远程主题
+remote_theme: null  # 或干脆删除此行
+
+# 确保使用本地样式构建
+theme: null

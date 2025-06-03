@@ -10,14 +10,29 @@ main:
   - title: "Publications"
     url: /publist/
  
+  # - title: "Data & Code"
+  #   url: /datacode/
+  #   children:
+  #     - title: "Dataset_Mars-Seg"
+  #       url: /datacode/datasets/
+  #     - title: "Source Code"
+  #       url: /datacode/code/
+  # - title: "Data & Code"
+  #   url: /datacode/
+  #   children:
+  #     - title: "Dataset_Mars-Seg"
+  #       url: /datacode/datasets/
+  #     - title: "Source Code"
+  #       url: /datacode/code/
+
   - title: "Data & Code"
-    url: /datacode/
+    url: "#"
     children:
       - title: "Dataset_Mars-Seg"
-        url: /datacode/datasets/
+        url: /datacode/Dataset_Mars-Seg/
       - title: "Source Code"
-        url: /datacode/code/
-  
+        url: /datacode/Source-Code/
+
   # - title: "Education Experience"
   #   url: /teaching/
 
