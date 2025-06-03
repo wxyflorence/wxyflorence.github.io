@@ -15,8 +15,8 @@ main:
     children:
       - title: "Dataset_Mars-Seg"
         url: /datacode/Dataset_Mars-Seg/
-      - title: "Source Code"
-        url: /datacode/Source-Code/
+      - title: "Dataset2"
+        url: /datacode/dataset2/
  
   # - title: "Data & Code"
   #   url: /datacode/
