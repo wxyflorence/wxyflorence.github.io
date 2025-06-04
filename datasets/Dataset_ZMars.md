@@ -15,16 +15,16 @@ In this dataset, we define the Martian surface scene into the following categori
 
 | Class name | Class definition | legend |
 |------------|------------------|--------|
-|Martian Regolith|Unconsolidated or poorly consolidated weathered material on Mars, reddish in color, does not form ridges due to terrain influence, and has relatively low mobility.| <img src="..\images\ZMars\image01.png" alt="example" style="zoom:50%;" /> |
-|Sand|Fine-grained material on Mars composed of small rock particles, typically formed by weathering and erosion, often forms ridges with windward and leeward slopes, and has relatively high mobility.| <img src="..\images\ZMars\image02.png" alt="example2" style="zoom:50%;" /> |
-|Gravel|Coarser than sand but finer than rocks, formed by weathering and erosion; generally moderate in mobility.| <img src="..\images\ZMars\image03.png" alt="example3" style="zoom:50%;" /> |
-|Veined Gravel Rock|Terrain on Mars consisting of patches of gravel and rocks, with distinct vein-like or extended strip patterns, usually rock-dominant with gravel coverage.| <img src="..\images\ZMars\image04.png" alt="example4" style="zoom:50%;" /> |
-|Pebbles|Small rocks fallen from larger rocks on the Martian surface, blocky or oval in shape, solid and brittle, larger than gravel particles, and generally free of gravel.| <img src="..\images\ZMars\image05.png" alt="example5" style="zoom:50%;" /> |
-|Igneous Rock|Rock formed from cooled and solidified magma on or beneath the Martian surface, featuring visible mineral crystals or vesicles, dark in color, irregular in shape, and lacking mobility.| <img src="..\images\ZMars\image06.png" alt="example6" style="zoom:50%;" /> |
-|Sedimentary Rock|Rock formed from the consolidation of layered loose sediment, often with visible stratification; contains little or no sand; larger in volume and immobile; sediments include gravel, sand, clay, or silt.| <img src="..\images\ZMars\image07.png" alt="example7" style="zoom:50%;" /> |
-|Rover Tracks|Imprints left by the wheels of Mars rovers on soft regolith or sand; close-up images show clear tread patterns, while distant shots display dragged strip marks caused by heavy movement.| <img src="..\images\ZMars\image08.png" alt="example8" style="zoom:50%;" /> |
-|Rover Components|Visible parts of a Mars rover or structures attached to it.| <img src="..\images\ZMars\image09.png" alt="example9" style="zoom:50%;" /> |
-|Unknown|Long-distance images of the Martian surface dominated by soft soil, possibly including sky or hills, but with indistinguishable surface compositions and clear light-dark layering between regions.| <img src="..\images\ZMars\image10.png" alt="example9" style="zoom:50%;" /> |
+|Martian Regolith|Unconsolidated or poorly consolidated weathered material on Mars, reddish in color, does not form ridges due to terrain influence, and has relatively low mobility.| <img src="/images/ZMars/image01.png" alt="example" style="zoom:50%;" /> |
+|Sand|Fine-grained material on Mars composed of small rock particles, typically formed by weathering and erosion, often forms ridges with windward and leeward slopes, and has relatively high mobility.| <img src="/images/ZMars/image02.png" alt="example2" style="zoom:50%;" /> |
+|Gravel|Coarser than sand but finer than rocks, formed by weathering and erosion; generally moderate in mobility.| <img src="/images/ZMars/image03.png" alt="example3" style="zoom:50%;" /> |
+|Veined Gravel Rock|Terrain on Mars consisting of patches of gravel and rocks, with distinct vein-like or extended strip patterns, usually rock-dominant with gravel coverage.| <img src="/images/ZMars/image04.png" alt="example4" style="zoom:50%;" /> |
+|Pebbles|Small rocks fallen from larger rocks on the Martian surface, blocky or oval in shape, solid and brittle, larger than gravel particles, and generally free of gravel.| <img src="/images/ZMars/image05.png" alt="example5" style="zoom:50%;" /> |
+|Igneous Rock|Rock formed from cooled and solidified magma on or beneath the Martian surface, featuring visible mineral crystals or vesicles, dark in color, irregular in shape, and lacking mobility.| <img src="/images/ZMars/image06.png" alt="example6" style="zoom:50%;" /> |
+|Sedimentary Rock|Rock formed from the consolidation of layered loose sediment, often with visible stratification; contains little or no sand; larger in volume and immobile; sediments include gravel, sand, clay, or silt.| <img src="/images/ZMars/image07.png" alt="example7" style="zoom:50%;" /> |
+|Rover Tracks|Imprints left by the wheels of Mars rovers on soft regolith or sand; close-up images show clear tread patterns, while distant shots display dragged strip marks caused by heavy movement.| <img src="/images/ZMars/image08.png" alt="example8" style="zoom:50%;" /> |
+|Rover Components|Visible parts of a Mars rover or structures attached to it.| <img src="/images/ZMars/image09.png" alt="example9" style="zoom:50%;" /> |
+|Unknown|Long-distance images of the Martian surface dominated by soft soil, possibly including sky or hills, but with indistinguishable surface compositions and clear light-dark layering between regions.| <img src="/images/ZMars/image10.png" alt="example9" style="zoom:50%;" /> |
 
 ### Citation of papers
 
