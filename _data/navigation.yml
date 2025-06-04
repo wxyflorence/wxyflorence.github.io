@@ -17,6 +17,8 @@ main:
         url: /datacode/Dataset_Mars-Seg/
       - title: "Dataset_ZSMars"
         url: /datacode/ZSMars/
+      - title: "Dataset_HyMars"
+        url: /datacode/HyMars/
  
   # - title: "Data & Code"
   #   url: /datacode/
