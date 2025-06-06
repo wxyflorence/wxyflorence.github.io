@@ -437,6 +437,10 @@
 // 下拉菜单子项统一样式
 .greedy-nav .hidden-links li a,
 .greedy-nav .visible-links li ul li a {
-  font-weight: normal !important;   // 不加粗
-  text-align: center;               // 居中
+  font-weight: normal !important;    // 取消加粗
+  text-align: center;                // 居中对齐
+  padding: 10px 15px !important;     // 统一内边距
+  margin: 0 !important;              // 取消默认 margin
+  line-height: 1.5 !important;       // 统一行高
+  font-size: 1rem !important;        // 控制字体大小
 }

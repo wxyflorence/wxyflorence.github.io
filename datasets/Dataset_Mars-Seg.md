@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
-## Dataset_Mars-Seg
+## Mars-Seg
 
 In the Mars exploration mission, it is necessary to construct a series of datasets in the Mars scene for the training and validation of relevant perception algorithms. In 2021, around the semantic segmentation task, NASA's Mars Science Laboratory released the first large-scale Martian terrain dataset called AI4Mars, which includes four types of terrain. However, due to the lack of definition of terrain categories and low annotation accuracy, the dataset does not have practical application value. For this purpose, our team has released a series of datasets named Mars-Seg for semantic segmentation tasks.
 
