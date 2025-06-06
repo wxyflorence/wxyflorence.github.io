@@ -430,3 +430,13 @@
     }
   }
 }
+
+
+
+
+// 下拉菜单子项统一样式
+.greedy-nav .hidden-links li a,
+.greedy-nav .visible-links li ul li a {
+  font-weight: normal !important;   // 不加粗
+  text-align: center;               // 居中
+}
