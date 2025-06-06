@@ -10,15 +10,18 @@ main:
   - title: "Publications"
     url: /publist/
   
-  - title: "Data & Code"
+  - title: "Datasets"
     url: "#"
     children:
-      - title: "Dataset_Mars-Seg"
+      - title: "Mars-Seg"
         url: /datacode/Dataset_Mars-Seg/
-      - title: "Dataset_ZSMars"
+      - title: "ZSMars"
         url: /datacode/ZSMars/
-      - title: "Dataset_HyMars"
+      - title: "HyMars"
         url: /datacode/HyMars/
+  
+  - title: "Code"
+    url: /code/
  
   # - title: "Data & Code"
   #   url: /datacode/
