@@ -1,13 +1,11 @@
 ---
 permalink: /datacode/HyMars/
-title: "Dataset_HyMars"
+title: "HyMars"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
-
-## HyMars
 
 We proposed three datasets for Mars exploration, including scenes from Holden Crater (HC), Nili Fossae (NF), and Utopia Planitia (UP). The data was obtained from the Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) aboard the Mars Reconnaissance Orbiter (MRO). Specifically, the HC is notable for its fluviolacustrine geological evolution, although the specifics of this evolution, such as water level changes and timing, remain unclear. The HC dataset consists of 418×595 pixels and retains 440 bands after filtering out water absorption and noise spectra. NF is unique for containing additional mineral phases like carbonates and serpentine, which suggests possible hydrothermal activity—an important factor for the potential emergence of biological activity on Mars. The NF dataset has dimensions of 478×593 pixels and includes 425 bands after discarding several noisy channel. UP, the landing site for the Tianwen-1 rover 'Zhurong', has a dataset size of 478×595×432.
 
